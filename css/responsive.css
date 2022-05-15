@@ -1,0 +1,144 @@
+/*Responsive All Media Quires*/
+/*Desktop/Labtop Device*/
+@media only screen and (max-width: 1366px){}
+@media only screen and (max-width: 1200px){}
+@media only screen and (max-width: 1140px){}
+@media only screen and (max-width: 1080px){}
+/*tab Device*/
+@media only screen and (max-width: 1024px){}
+@media only screen and (max-width: 992px){
+    .custom {
+        margin-top: -134px;
+    }
+    .card-button {
+        top: 51%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .navbar-nav .nav-item .nav-link {
+    text-align: center;
+    font-size: 18px;
+    background: #00a0ff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    opacity: 0.6;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    background: #939393;
+    color: ;
+    color: #cbfhjk;
+}
+.navbar-nav{
+    margin-top: 10px;
+}
+.card-button {
+    top: 39%;
+}
+}
+/*Mobile Device*/
+@media only screen and (max-width: 767px){
+    .about-text {
+    text-align: center;
+    margin-top: 25px;
+}
+.social-icon.mb-5 {
+    text-align: center;
+    margin-top: 30px;
+}
+.baner-btn {
+    text-align: center;
+}
+.item.skills {
+    margin-top: 25px;
+}
+.services-item1::after {
+    width: 0px;
+    height: 0%;
+    background: none;
+    content: '';
+    position: none;
+    right: 0;
+    top: 1%;
+}
+.services-item3::after {
+    width: 0px;
+    height: 0%;
+    background: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1%;
+}
+.item-img-overlay.text-center::before {
+    margin-left: 500px;
+}
+.item-img-overlay.text-center::after {
+    margin-left: -500px;
+}
+.custom {
+    margin-top: 0;
+}
+.card-button {
+    top: 55%;
+}
+.counter-content p {
+    margin-bottom: 25px;
+}
+.strong-text {
+    font-size: 35px;
+}
+.card-button {
+    top: 55%;
+}
+}
+@media only screen and (max-width: 640px){
+}
+@media only screen and (max-width: 514px){
+    .item.mb-md50 {
+    text-align: center;
+    margin-bottom: 44px;
+}
+.item.skills {
+    text-align: center;
+}
+.contact span.icon::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0%;
+    background: none;
+    right: 0;
+    top: -2px;
+}
+.contact {
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 36px;
+}
+.strong-text {
+    font-size: 30px;
+    font-family: initial;
+}
+.card-button {
+    top: 54%;
+}
+}
+@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 360px){
+    .buton button, .buton a {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.card-button {
+    top: 39%;
+}
+}
+@media only screen and (max-width: 320px){
+    .card-button {
+    top: 36%;
+}
+.tab-sitebar ul.nav.nav-tabs a {
+    padding: 6px 6px;
+}
+}
